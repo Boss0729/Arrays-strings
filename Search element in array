@@ -1,0 +1,22 @@
+//Prajwal
+//24070123073
+//A3
+#include <iostream>
+using namespace std;
+int main() {
+    int marks[5]={20,59,68,79,89},key;
+    cout<<"Enter key to be searched: "<<endl;
+    cin>>key;
+    for(int i=0;i<5;i++){
+    if (key==marks[i]){
+        cout<<"Key found at: "<<i+1<<endl;
+        //break;
+        return 0;
+    }
+    }
+    return 0;
+}
+/*Output
+Enter key to be searched: 
+77
+Key not Found!!*/
