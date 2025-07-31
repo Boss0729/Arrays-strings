@@ -10,13 +10,17 @@ int main() {
     for(int i=0;i<5;i++){
     if (key==marks[i]){
         cout<<"Key found at: "<<i+1<<endl;
-        //break;
         return 0;
     }
     }
+    cout<<"key not found!"<<endl;
     return 0;
 }
 /*Output
 Enter key to be searched: 
 77
-Key not Found!!*/
+Key not Found!!
+Enter key to be searched: 
+89
+Key found at: 5
+*/
