@@ -1,0 +1,33 @@
+//Prajwal
+//24070123073
+//A3
+#include <iostream>
+using namespace std;
+int main() {
+    int s,j,k,i,temp;
+    int a[s];
+    cout<<"Enter no of elemets to store in thje array: ";
+    cin>>s;
+    for(i=0;i<s;i++){
+        cout<<"Enter element "<<i+1<<": ";
+        cin>>a[i];
+    }
+    for(j=s,i=0;j=s-1,i<s/2;i++,j--){
+        temp=a[i];
+        a[i]=a[j];
+        a[j]=temp;
+    }
+    cout<<"The numbers are: "<<endl;
+    for(int i=0;i<s;i++){
+    cout <<a[i]<<" ";
+    }
+
+    return 0;
+}
+/* output
+Enter no of elemets to store in thje array: 3
+Enter element 1: 11
+Enter element 2: 13
+Enter element 3: 15
+The numbers are: 
+15 13 11 */
